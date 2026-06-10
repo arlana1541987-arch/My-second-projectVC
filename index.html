@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Семейный бюджет — простой калькулятор для учёта доходов и расходов">
+    <title>Семейный бюджет — учёт финансов</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo">💰 Семейный бюджет</a>
+        <nav class="nav">
+            <a href="#features">Возможности</a>
+            <a href="#how">Как работает</a>
+            <a href="calculator.html">Калькулятор</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">Бесплатно · Без регистрации · В браузере</span>
+            <h1>Контролируйте <span>семейный бюджет</span> легко</h1>
+            <p>
+                Простой и удобный калькулятор для учёта доходов и расходов.
+                Все данные хранятся локально в вашем браузере — никто другой их не увидит.
+            </p>
+            <div class="hero-actions">
+                <a href="calculator.html" class="btn">Открыть калькулятор</a>
+                <a href="#features" class="btn btn-outline">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Что умеет приложение</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Статистика в реальном времени</h3>
+                    <p>Сразу видите доходы, расходы, баланс и долю трат от заработка.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Автосохранение</h3>
+                    <p>Все операции сохраняются в браузере — данные не пропадут после закрытия вкладки.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌙</div>
+                    <h3>Светлая и тёмная тема</h3>
+                    <p>Переключайте оформление одной кнопкой — комфортно днём и вечером.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Работает на любом устройстве</h3>
+                    <p>Адаптивный дизайн — удобно на компьютере, планшете и телефоне.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how">
+        <div class="container">
+            <h2>Как начать</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Откройте калькулятор</h3>
+                    <p>Нажмите кнопку «Открыть калькулятор» на этой странице.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Добавьте операции</h3>
+                    <p>Укажите тип, описание и сумму — доход или расход.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Следите за балансом</h3>
+                    <p>Приложение автоматически посчитает итоги и покажет статистику.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Готовы вести бюджет?</h2>
+            <p>Начните прямо сейчас — установка не требуется.</p>
+            <a href="calculator.html" class="btn">Перейти к калькулятору</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>Семейный бюджет · Учебный проект · 2026</p>
+    </div>
+</footer>
+
+<button
+    class="theme-toggle"
+    id="themeToggle"
+    type="button"
+    onclick="toggleTheme()"
+    title="Переключить тему"
+    aria-label="Переключить светлую и тёмную тему">
+    🌙
+</button>
+
+<script src="js/theme.js"></script>
+</body>
+</html>
